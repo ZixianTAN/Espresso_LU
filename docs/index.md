@@ -23,16 +23,13 @@ The materials are primarily intended for **postgraduate students and researchers
 ## 🌐 Content
 - [Welcome](welcome.md)
 - [Foundations](foundations/welcome.md)
-  - [Bron-Oppenheimer Approximation](foundations/BO.md)
-  - [Many-Body Schr&ouml;dinger Equation](foundations/MBSE.md)
-  - [Thomas-Fermi-Dirac Approximation](foundations/TFD.md)
-  - [Honhenberg-Kohn Theorems](foundations/HK.md)
+  - [Historical Development](foundations/his.md)
   - [Kohn-Sham Equations](foundations/KS.md)
   - [Other Related](foundations/other.md)
 - [Quantum ESPRESSO](qe/welcome.md)
   - [Setup](qe/setup.md)
   - [Input Structure](qe/input.md)
-  - [Output]
+  - [Output](qe/output.md)
 - [HPC Job Submission](hpc_usage.md)
 
 
