@@ -6,7 +6,7 @@ It is designed for postgraduate students and researchers in **computational chem
 ## Content
 - [Welcome](welcome.md)
 - [Foundations](foundations/welcome.md)
-  - [Many-Body Schr\"odinger Equation](foundations/MBSE.md)
+  - [Many-Body Schr&ouml;dinger Equation](foundations/MBSE.md)
 - [Quantum ESPRESSO Introduction](qe_intro.md)
 - [HPC Job Submission](hpc_usage.md)
 
