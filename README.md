@@ -1,2 +1,2 @@
 # Espresso_LU
-Note and tutorial for first-principle calculation using Quantum ESPRESSO.
+Tutorials and notes on first-principles simulations with Quantum ESPRESSO - Lancaster University Computational Chemistry Group.
