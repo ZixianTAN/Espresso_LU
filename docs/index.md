@@ -54,6 +54,6 @@ This project is inspired by coursework and research activities within the **Depa
 
 ---
 
-*Maintained by Zixian Tan*
+*Maintained by Zixian Tan*  
 *zixian.tan@lancaster.ac.uk*  
 *Lancaster University, UK*
