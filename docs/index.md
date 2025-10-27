@@ -21,7 +21,7 @@ The materials are primarily intended for **postgraduate students and researchers
 ---
 
 ## 🌐 Content
-- [Welcome](welcome.md)
+- [Welcome](index.md)
 - [Foundations](foundations/welcome.md)
   - [Historical Development](foundations/his.md)
   - [Kohn-Sham Equations](foundations/KS.md)
