@@ -1,4 +1,6 @@
-# Quantum ESPRESSO SCF Calculation Template (`calculation = 'scf'`)
+# Self-Consist Field
+
+> Calculation type: `calculation = 'scf'`
 
 This document provides a **standard self-consistent field (SCF)** input file template for `pw.x` in Quantum ESPRESSO.  
 It includes both essential parameters and optional advanced parameters (commented out with explanations).

@@ -1,4 +1,6 @@
-# Quantum ESPRESSO Band Structure Calculation Template (`calculation = 'bands'`)
+# Band Structure
+
+> Calculation type: `calculation = 'bands'`
 
 This document provides a **standard band structure calculation** template for `pw.x` in Quantum ESPRESSO.  
 It includes all necessary parameters as well as optional advanced settings (commented with explanations).  

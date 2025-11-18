@@ -49,7 +49,7 @@ This project is inspired by research activities within the **Department of Chemi
 ---
 
 *Maintained by Zixian Tan*  
-*<zixian.tan@lancaster.ac.uk>*  
+*zixian.tan@lancaster.ac.uk*  
 *Postgraduate Researcher*  
-*Department of Chemistry, Lancaster University, UK*
+*Department of Chemistry, Lancaster University, UK*  
 ![unilogo](../img/uni_logo.png)

@@ -1,4 +1,6 @@
-# Quantum ESPRESSO Geometry Optimization Templates (`relax` / `vc-relax`)
+# Geometry Optimization
+
+> Calculation type: `relax` / `vc-relax`
 
 This document provides two standard Quantum ESPRESSO input templates for **geometry optimization** using `pw.x`.  
 Both include commented advanced parameters with explanations for flexible and educational use.
