@@ -55,6 +55,14 @@ const sidebars: SidebarsConfig = {
         'softwares/xcrysden',
       ],
     },
+    {
+      type: 'category',
+      label: 'HPC',
+      link: { type: 'doc', id: 'hpc/index' },
+      items: [
+        'hpc/HEC',
+      ],
+    },
   ],
 
 };

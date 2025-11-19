@@ -106,8 +106,8 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            { label: 'Foundations', to: '/Espresso_LU/docs/foundations/index' },
-            { label: 'Quantum ESPRESSO', to: '/Espresso_LU/docs/qe/index' },
+            { label: 'Foundations', to: 'foundations/index' },
+            { label: 'Quantum ESPRESSO', to: 'qe/index' },
           ],
         },
         //{
