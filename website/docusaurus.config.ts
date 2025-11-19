@@ -106,8 +106,10 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            { label: 'Foundations', to: 'foundations/index' },
-            { label: 'Quantum ESPRESSO', to: 'qe/index' },
+            { label: 'Foundations', to: 'foundations' },
+            { label: 'Quantum ESPRESSO', to: 'qe' },
+            { label: 'Softwares', to: 'softwares' },
+            { label: 'HPC', to: 'hpc' },
           ],
         },
         //{
