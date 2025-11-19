@@ -15,7 +15,7 @@ layout: home
 This site provides notes and tutorials on **first-principles electronic-structure calculations** using **Quantum ESPRESSO**.
 It is based on my personal experience learning **First-Principles** and **Density Functional Theory (DFT)** calculations with Quantum ESPRESSO.
 
-I am still learning and by no means an expert, so there may be some inaccuracies. If you notice any mistakes or have suggestions for improvement, please feel free to [open an issue](https://github.com/ZixianTAN/Espresso_LU/issues) - your feedback is greatly appreciated.
+I am still learning and by no means an expert, so there may be some inaccuracies. If you notice any mistakes or have suggestions for improvement, please feel free to [open an issue](https://github.com/zixian-tan/Espresso_LU/issues) - your feedback is greatly appreciated.
 
 The materials are primarily intended for **postgraduate students and researchers in computational chemistry** at **Lancaster University**, aiming to promote effective learning, reproducibility, and best practices in **High End Computing (HEC) Cluster** environments.
 
@@ -35,7 +35,7 @@ The materials are primarily intended for **postgraduate students and researchers
 
 If you notice any mistakes or have ideas for improvement, please:
 
-1. Open an [issue](https://github.com/ZixianTAN/Espresso_LU/issues), or
+1. Open an [issue](https://github.com/zixian-tan/Espresso_LU/issues), or
 2. Submit a pull request with your proposed changes.
 
 Your feedback is highly appreciated and helps make this resource better for everyone.

@@ -12,9 +12,9 @@ const config: Config = {
   favicon: 'img/uni_icon.ico',
 
   // === 部署相关 ===
-  url: 'https://zixiantan.github.io',      // 你的 GitHub Pages 主域
+  url: 'https://zixian-tan.github.io',      // 你的 GitHub Pages 主域
   baseUrl: '/Espresso_LU/',                // 仓库名
-  organizationName: 'ZixianTAN',           // GitHub 用户名
+  organizationName: 'zixian-tan',           // GitHub 用户名
   projectName: 'Espresso_LU',              // 仓库名
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -56,7 +56,7 @@ const config: Config = {
           path: '../docs',
           routeBasePath: '/', 
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/ZixianTAN/Espresso_LU/edit/main/docs/',
+          editUrl: 'https://github.com/zixian-tan/Espresso_LU/edit/main/docs/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
           //sidebarPath: './sidebars.ts',
@@ -94,7 +94,7 @@ const config: Config = {
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/ZixianTAN/Espresso_LU',
+          href: 'https://github.com/zixian-tan/Espresso_LU',
           label: 'GitHub',
           position: 'right',
         },
@@ -136,7 +136,7 @@ const config: Config = {
             //  label: 'Blog',
             //  to: '/blog',
             //},
-            { label: 'GitHub', href: 'https://github.com/ZixianTAN/Espresso_LU' },
+            { label: 'GitHub', href: 'https://github.com/zixian-tan/Espresso_LU' },
           ],
         },
       ],
