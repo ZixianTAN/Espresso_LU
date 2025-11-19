@@ -9,7 +9,7 @@ import rehypeKatex from 'rehype-katex';
 const config: Config = {
   title: 'Espresso_LU',
   tagline: 'Notes and tutorials on first-principles calculations with Quantum ESPRESSO',
-  favicon: 'img/uni_logo.ico',
+  favicon: 'img/uni_icon.ico',
 
   // === 部署相关 ===
   url: 'https://zixiantan.github.io',      // 你的 GitHub Pages 主域
@@ -83,7 +83,7 @@ const config: Config = {
       title: 'Espresso_LU',
       logo: {
         alt: 'Lancaster University logo',
-        src: '/img/uni_logo.svg',
+        src: '/img/uni_logo_full.svg',
       },
       items: [
         {
