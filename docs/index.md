@@ -23,11 +23,11 @@ The materials are primarily intended for **postgraduate students and researchers
 
 ## 🌐 Content
 
-- [Welcome](index.md)
-- [Foundations](foundations/index.md)
-- [Quantum ESPRESSO](qe/index.md)
-- [Other Relevant Softwares](softwares/index.md)
-- [HPC Job Submission](hpc/index.md)
+- [Welcome](./index.md)
+- [Foundations](./foundations/index.md)
+- [Quantum ESPRESSO](./qe/index.md)
+- [Other Relevant Softwares](./softwares/index.md)
+- [HPC](./hpc/index.md)
 
 ---
 

@@ -19,8 +19,8 @@ const config: Config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  //onBrokenLinks: 'throw',
+  //onBrokenMarkdownLinks: 'warn',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   //future: {

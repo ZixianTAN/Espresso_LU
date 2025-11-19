@@ -5,6 +5,6 @@
 
 ## 🌐 Content
 
-- [Historical Development](his.md)
-- [Kohn-Sham Equations](KS.md)
-- [Other Related Teories](other.md)
+- [Historical Development](./his.md)
+- [Kohn-Sham Equations](./KS.md)
+- [Other Related Teories](./other.md)
