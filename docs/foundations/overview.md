@@ -1,7 +1,3 @@
----
-title: Foundations
-sidebar_class_name: hidden
----
 # Foundations
 
 > This section contains some foundations about first-principle modeling and calculation, mainly about density functional theory (DFT).

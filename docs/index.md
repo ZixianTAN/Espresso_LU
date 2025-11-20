@@ -19,9 +19,9 @@ The materials are primarily intended for **postgraduate students and researchers
 ## 🌐 Content
 
 - [Welcome](./index.md)
-- [Foundations](./foundations/index.md)
+- [Foundations](./foundations)
 - [Quantum ESPRESSO](./qe/index.md)
-- [Other Relevant Softwares](./softwares/index.md)
+- [Relevant Softwares](./softwares/index.md)
 - [HPC](./hpc/index.md)
 
 ---
