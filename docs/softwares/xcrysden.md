@@ -1,4 +1,7 @@
-# ⚙️ XCrySDen Installation and Compatibility Guide (Ubuntu 24.04-25.10)
+---
+sidebar_position: 2
+---
+# XCrySDen Installation and Compatibility Guide (Ubuntu 24.04-25.10)
 
 XCrySDen is a crystal and molecular structure visualization tool based on Tcl/Tk.  
 This guide is for version `1.6.2` (latest stable).

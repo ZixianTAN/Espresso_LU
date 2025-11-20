@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Historical Development of DFT
 
 > The modern DFT is based on the Kohn–Sham equations. Before that, several key concepts were developed which established the foundation of the modern theory. This section briefly introduces them to help understanding DFT.

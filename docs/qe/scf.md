@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Self-Consist Field
 
 > Calculation type: `calculation = 'scf'`

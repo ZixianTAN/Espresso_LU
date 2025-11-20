@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Foundations
 
 > This section contains some foundations about first-principle modeling and calculation, mainly about density functional theory (DFT).
