@@ -1,9 +1,4 @@
----
-title: Welcome
-layout: home
----
-
-# Computational Chemisty - First-Principles Calculations Notes and Tutorials
+# First-Principles Modelling Notes and Tutorials
 
 > Notes and tutorials on **first-principles modelling** using **Quantum ESPRESSO**.  
 > Designed for postgraduate students and researchers in **computational chemistry at Lancaster University**.
