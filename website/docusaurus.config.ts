@@ -75,12 +75,18 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    docs: {
+      sidebar: {
+        hideable: true,          
+        autoCollapseCategories: true, 
+      },
+    },
     navbar: {
-      title: 'Espresso_LU',
+      title: 'Quantum ESPRESSO',
       logo: {
         alt: 'Lancaster University logo',
         src: '/img/uni_logo_full.svg',
