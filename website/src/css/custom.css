@@ -6,6 +6,11 @@
 
 
 @import url("/katex/katex.min.css");
+
+.menu__list-item--hidden {
+  display: none !important;
+};
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
