@@ -29,7 +29,7 @@ const sidebars: SidebarsConfig = {
   ],
    */
 
-  DOC: [
+  docs: [
     {
       type: 'doc',
       id: 'index',
