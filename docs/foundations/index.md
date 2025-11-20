@@ -1,5 +1,4 @@
 ---
-id: foundations/index
 title: Foundations
 sidebar_class_name: hidden
 ---
