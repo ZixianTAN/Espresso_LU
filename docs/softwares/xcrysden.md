@@ -1,7 +1,9 @@
 ---
 sidebar_position: 2
 ---
-# XCrySDen Installation and Compatibility Guide (Ubuntu 24.04-25.10)
+# XCrySDen Installation and Compatibility Guide
+
+> Ubuntu 24.04-25.10 and fedora 43 workstation
 
 XCrySDen is a crystal and molecular structure visualization tool based on Tcl/Tk.  
 This guide is for version `1.6.2` (latest stable).
@@ -28,14 +30,28 @@ sudo mv xcrysden-1.6.2-bin-shared /opt/xcrysden
 
 ## 3️⃣ Install Dependencies
 
+For Ubuntu:
+
 ```bash
 sudo apt update
 sudo apt install tk libglu1-mesa libtogl2 libxmu6 imagemagick openbabel libgfortran5 libfftw3-dev
 ```
 
+For Fedora, you should download Togl2.0-8.4-Linux64 first
+
+```bash
+tar -xzf Togl2.0-8.4-Linux64.tar.gz
+sudo mkdir -p /opt/togl2
+sudo cp -a Togl2.0-8.4-Linux/* /opt/togl2/
+cd /opt/togl2/lib/Togl2.0
+sudo ln -sf libTogl2.0.so libTogl.so.2
+echo "/opt/togl2/lib/Togl2.0" | sudo tee /etc/ld.so.conf.d/togl2.conf 
+sudo ldconfig
+```
+
 ---
 
-## 4️⃣ Fix Compatibility (Togl & Wayland)
+<!-- ## 4️⃣ Fix Compatibility (Togl & Wayland)
 
 Find and link Togl library:
 
@@ -62,9 +78,9 @@ Save it and do:
 source ~/.bashrc
 ```
 
----
+--- -->
 
-## 5️⃣ Disable Incompatible Togl Options
+## 4️⃣ Disable Incompatible Togl Options
 
 ```bash
 mkdir -p ~/.xcrysden
@@ -86,7 +102,7 @@ set toglOpt(stereo)  false
 set toglOpt(overlay) false
 ```
 
-## 6️⃣ Create a Desktop Shortcut
+## 5️⃣ Create a Desktop Shortcut
 
 ```bash
 sudo vi /usr/share/applications/xcrysden.desktop
@@ -96,7 +112,7 @@ sudo vi /usr/share/applications/xcrysden.desktop
 [Desktop Entry]
 Name=XCrySDen
 Comment=Crystalline and Molecular Structure Visualization
-Exec=env GDK_BACKEND=x11 /opt/xcrysden/xcrysden
+Exec=/opt/xcrysden/xcrysden
 Icon=/opt/xcrysden/images/xcrysden.png
 Terminal=false
 Type=Application
@@ -110,13 +126,13 @@ sudo update-desktop-database
 
 ---
 
-## 7️⃣ Verify Installation
+## 6️⃣ Verify Installation
 
 ```bash
 xcrysden
 ```
 
-## Extra Step
+## 7️⃣ Extra Step (For Ubuntu)
 
 The imagemask icon name will be shown after installation, but the name is wrong.
 

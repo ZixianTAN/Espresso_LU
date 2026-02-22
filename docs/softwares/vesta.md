@@ -1,7 +1,9 @@
 ---
 sidebar_position: 1
 ---
-# VESTA Installation Guide (Ubuntu 24.04-25.10)
+# VESTA Installation Guide
+
+> For Ubuntu 24.04-25.10 and fedora 43 workstation
 
 VESTA is a visualization program for crystal structures and electronic densities.  
 These steps describe installation on Ubuntu 25.01 using the official precompiled Linux package (`VESTA-gtk3-x86_64.tar.bz2`).
@@ -28,11 +30,22 @@ sudo ln -s /opt/vesta/VESTA /usr/local/bin/vesta
 
 ## 3️⃣ Install Required Dependencies
 
+For Ubuntu :
+
 ```bash
 sudo apt update
 sudo apt install libglu1-mesa libx11-6 libxext6 libxt6 libxrender1 libsm6 libwebkit2gtk-4.1-0 libjavascriptcoregtk-4.1-0
 sudo ln -s /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
 sudo ln -s /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-4.0.so.18
+```
+
+For fedora:
+
+```bash
+sudo dnf update
+sudo dnf install -y mesa-libGLU libX11 libXext libXt libXrender libSM webkit2gtk4.1 javascriptcoregtk4.1
+sudo ln -s /usr/lib64/libwebkit2gtk-4.1.so.0 /usr/lib64/libwebkit2gtk-4.0.so.37
+sudo ln -s /usr/lib64/libjavascriptcoregtk-4.1.so.0 /usr/lib64/libjavascriptcoregtk-4.0.so.18
 ```
 
 ---
